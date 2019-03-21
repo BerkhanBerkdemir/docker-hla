@@ -1,3 +1,6 @@
+/**
+ * This work is licensed under WTFPL license
+ */
 program helloWorld;
 
 #include("stdlib.hhf")
