@@ -6,7 +6,7 @@ HLA (High Level Assembly) on Linux and macOS is **pain**, and this Docker
 container will give us a space to compile and run HLA codes (a.k.a. development
 environment).
 
-## Getting started
+## Getting Started
 
 Shell knowledge is required `docker-hla` to use; however, you can follow `/docs`
 to understand some of the magic of the shell.
@@ -21,7 +21,7 @@ to understand some of the magic of the shell.
 
 ### Installing
 
-Clone this git repository via a git client or download an tarbal archive, on
+Clone this git repository via a git client or download an tarball archive from
 GitHub. If you want to use latest version of container, please use `master`
 branch, but it can be broken. So, consider to use `tags` which they will stay
 stable, *always*.
