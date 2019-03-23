@@ -1,5 +1,6 @@
 # HLA on Docker
 
+[![Build Status](https://travis-ci.org/BerkhanBerkdemir/docker-hla.svg?branch=master)](https://travis-ci.org/BerkhanBerkdemir/docker-hla)
 [![MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 HLA (High Level Assembly) on Linux and macOS is **pain**, and this Docker

@@ -1,0 +1,11 @@
+dist: xenial
+language: minimal
+
+services:
+- docker
+
+before_install:
+- docker build -t docker-hla .
+
+script:
+- docker run --volume $(pwd)/examples:/home/hla docker-hla bash -c "hla -lmelf_i386 helloWorld.hla; ./helloWorld"
